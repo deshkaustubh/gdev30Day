@@ -77,10 +77,4 @@ Card(
 - [Jetpack Compose Guide](https://developer.android.com/jetpack/compose)
 
 
-<div style="display: flex; overflow-x: auto; gap: 10px;">
-    <img src=".README_images/darkhome.png" alt="Dark Home" width="300">
-    <img src=".README_images/darkHomeExpanded.png" alt="Dark Home Expanded" width="300">
-    <img src=".README_images/homeLight.png" alt="Light Home" width="300">
-    <img src=".README_images/lightHomeExpanded.png" alt="Light Home Expanded" width="300">
-</div>
 
