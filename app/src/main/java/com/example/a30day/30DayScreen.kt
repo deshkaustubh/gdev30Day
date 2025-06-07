@@ -152,7 +152,7 @@ fun AppCard(
                         ),
                     ) {
                         Text(
-                            "Click me",
+                            "Resources",
                             style = MaterialTheme.typography.bodyLarge,
                             fontSize = 14.sp
                         )
