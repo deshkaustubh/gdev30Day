@@ -123,7 +123,7 @@ fun AppCard(
             ) {
                 Text(
                     day.title,
-                    style = MaterialTheme.typography.displayLarge,
+                    style = MaterialTheme.typography.bodyLarge,
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurface
