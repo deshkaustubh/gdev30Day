@@ -1,6 +1,8 @@
 package com.example.a30day.data
 
 import com.example.a30day.R
+import com.example.a30day.model.Day
+import com.example.a30day.model.Week
 
 
 val studyPlan = listOf(
