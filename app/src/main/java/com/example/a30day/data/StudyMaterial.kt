@@ -2,22 +2,6 @@ package com.example.a30day.data
 
 import com.example.a30day.R
 
-data class Week(
-    val weekNumber: Int,
-    val days: List<Day>
-)
-
-data class Day(
-    val dayNumber: Int,
-    val title: String,
-    val description: String,
-    val imageRes: Int, // Reference to drawable image
-    val resources: List<String>
-)
-
-
-
-
 
 val studyPlan = listOf(
     Week(
