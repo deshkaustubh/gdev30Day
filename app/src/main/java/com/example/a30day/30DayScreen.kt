@@ -35,17 +35,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.a30day.data.Day
-import com.example.a30day.data.Week
 import com.example.a30day.data.studyPlan
+import com.example.a30day.model.Day
+import com.example.a30day.model.Week
 
 
 fun openLink(context: Context, url: String) {
     val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
     context.startActivity(intent) // Use context to start activity
 }
-
-
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
@@ -161,11 +159,5 @@ fun AppCard(
 @Preview
 @Composable
 fun AppPreview() {
-//    val sampleWeeks = listOf(
-//        Week(weekNumber = 1, days = listOf(
-//            Day(1, "Intro to Kotlin", "Learn the basics.", R.drawable.image_1, listOf("https://kotlinlang.org"))
-//        ))
-//    )
-//    WeekScreen(sampleWeeks)
     AppScreen()
 }
